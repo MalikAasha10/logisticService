@@ -3,7 +3,7 @@ import Navbar from './components/navbar';
 import Contact from './pages/contact';
 import FAQ from "./pages/FAQ";
 import Privacy from "./pages/privacy";
-// Import other pages...
+
 
 export default function App() {
   return (
