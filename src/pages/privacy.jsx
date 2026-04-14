@@ -12,7 +12,7 @@ const Privacy = () => {
   return (
     <div className="bg-[#020B14] text-white min-h-screen font-sans selection:bg-[#22c55e]/30">
       
-      {/* --- HERO SECTION --- */}
+     
       <section className="pt-20 pb-12 px-6 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="max-w-2xl">
           <p className="text-[#22c55e] text-xs tracking-[0.3em] font-bold mb-4 uppercase">Security Excellence</p>
@@ -24,7 +24,7 @@ const Privacy = () => {
           </p>
         </div>
         
-        {/* Version Control Badge */}
+        
         <div className="mt-8 md:mt-0 bg-[#031629] border border-gray-800 p-4 rounded-md text-right">
           <p className="text-[10px] text-gray-500 uppercase font-bold mb-1">Version Control</p>
           <p className="text-[#22c55e] font-mono text-sm">v4.2.0-Elite</p>
@@ -35,10 +35,10 @@ const Privacy = () => {
         </div>
       </section>
 
-      {/* --- MAIN CONTENT AREA --- */}
+    
       <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col lg:flex-row gap-12">
         
-        {/* Left: Sticky Navigation */}
+        
         <aside className="lg:w-1/4">
           <div className="sticky top-28 space-y-8">
             <div>
@@ -65,10 +65,10 @@ const Privacy = () => {
           </div>
         </aside>
 
-        {/* Right: Content Sections */}
+        
         <main className="lg:w-3/4 space-y-24 pb-20">
           
-          {/* Section 01: Data Collection */}
+         
           <section id="data-collection" className="scroll-mt-28">
             <div className="flex items-center space-x-4 mb-8">
               <span className="h-px w-12 bg-[#22c55e]"></span>
@@ -97,7 +97,7 @@ const Privacy = () => {
             </div>
           </section>
 
-          {/* Section 02: Strategic Utilization */}
+          
           <section id="strategic-utilization" className="scroll-mt-28">
             <div className="flex items-center space-x-4 mb-8">
               <span className="h-px w-12 bg-[#22c55e]"></span>
@@ -115,7 +115,7 @@ const Privacy = () => {
             </div>
           </section>
 
-          {/* Section 03: Security Infrastructure */}
+          
           <section id="security-infrastructure" className="scroll-mt-28">
             <div className="flex items-center space-x-4 mb-8">
               <span className="h-px w-12 bg-[#22c55e]"></span>
@@ -134,7 +134,7 @@ const Privacy = () => {
               </div>
             </div>
             
-            {/* Uptime Status Bar */}
+       
             <div className="mt-8 bg-[#031629] border border-gray-800 p-6 rounded-lg flex items-center justify-between">
               <div>
                 <p className="text-[10px] font-bold text-gray-500 uppercase mb-2">Global Network Health</p>
@@ -151,7 +151,6 @@ const Privacy = () => {
             </div>
           </section>
 
-          {/* Section 04: User Rights */}
           <section id="user-rights" className="scroll-mt-28">
             <div className="flex items-center space-x-4 mb-8">
               <span className="h-px w-12 bg-[#22c55e]"></span>
@@ -187,7 +186,7 @@ const Privacy = () => {
             </div>
           </section>
 
-          {/* Section 05: Compliance */}
+       
 <section id="global-compliance" className="scroll-mt-28">
   <div className="flex items-center space-x-4 mb-8">
     <span className="h-px w-12 bg-[#22c55e]"></span>
