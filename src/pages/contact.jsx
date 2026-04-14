@@ -1,10 +1,9 @@
 import React from 'react';
+import map from '../assets/map.png';
 
 const Contact = () => {
   return (
     <div className="bg-[#020B14] text-white min-h-screen font-sans">
-      
-      {/* --- HERO SECTION --- */}
       <section className="pt-20 pb-16 px-6 text-center bg-linear-to-b from-[#031629] to-[#020B14]">
         <p className="text-[#22c55e] text-xs tracking-[0.3em] font-bold mb-4 uppercase">Global Communication Protocol</p>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
@@ -15,10 +14,10 @@ const Contact = () => {
         </p>
       </section>
 
-      {/* --- MAIN CONTENT: FORM & INFO --- */}
+    
       <section className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-2 gap-16">
         
-        {/* Left Side: Contact Form */}
+      
         <div className="space-y-8">
           <div className="bg-[#031629] border border-gray-800 p-8 rounded-lg shadow-2xl">
             <h2 className="text-2xl font-semibold mb-8 text-blue-50">Contact Customer Support</h2>
@@ -50,7 +49,7 @@ const Contact = () => {
             </form>
           </div>
 
-          {/* Regional Hub Status (World Map Placeholder) */}
+          
           <div className="space-y-4">
             <div className="flex justify-between items-center">
                <h3 className="text-lg font-medium">Regional Hub Status</h3>
@@ -59,13 +58,13 @@ const Contact = () => {
                </span>
             </div>
             <div className="bg-[#031629] border border-gray-800 rounded-lg overflow-hidden h-64 flex items-center justify-center">
-               {/* Replace with an actual world map image or SVG */}
-               <img src="https://cdn.pixabay.com/photo/2017/06/14/08/20/map-2401458_1280.png" alt="World Map" className="opacity-20 grayscale invert" />
+             
+               <img src={map} alt="World Map" className="opacity-20 grayscale invert" />
             </div>
           </div>
         </div>
 
-        {/* Right Side: Corporate Details */}
+     
         <div className="space-y-12 py-4">
           <div className="space-y-2">
             <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Global Headquarters</p>
@@ -92,7 +91,7 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* --- READY TO INTEGRATE SECTION --- */}
+     
       <section className="py-24 px-6 text-center border-t border-gray-900 mt-12 bg-[#010810]">
         <h2 className="text-4xl font-bold mb-4">Ready to Integrate?</h2>
         <p className="text-gray-400 mb-10 max-w-xl mx-auto">Experience the future of kinetic logistics. Join 5,000+ enterprise partners leveraging the Titan Monolith.</p>

@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Contact from './pages/contact';
+import FAQ from "./pages/FAQ";
+import Privacy from "./pages/privacy";
 // Import other pages...
 
 export default function App() {
@@ -10,8 +12,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Contact />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/faq" element={<FAQ />} /> */}
-        {/* <Route path="/privacy" element={<Privacy />} /> */}
+        <Route path="/faq" element={<FAQ />} />
+       <Route path="/privacy" element={<Privacy />} />
       </Routes>
     </Router>
   );
